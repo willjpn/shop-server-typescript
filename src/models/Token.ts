@@ -1,5 +1,4 @@
 import {model, Schema, Document, Model} from 'mongoose';
-import {Response} from "express";
 
 const TokenSchema = new Schema({
     userId: {
